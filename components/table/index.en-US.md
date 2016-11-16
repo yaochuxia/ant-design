@@ -78,7 +78,7 @@ const columns = [{
 
 ### Column
 
-One of Property `columns` for descriping column.
+One of Property `columns` for descriping column, Column has the same API.
 
 | Property      | Description              | Type            |  Default     |
 |---------------|--------------------------|-----------------|--------------|
@@ -97,6 +97,12 @@ One of Property `columns` for descriping column.
 | fixed      | set column to be fixed: `true`(same as left) `'left'` `'right'` | Boolean or String | false |
 | filteredValue | controlled filtered value | Array | - |
 | sortOrder | controlled sorted value: `'ascend'` `'descend'` `false` | Boolean or String | - |
+
+### ColumnGroup
+
+| Property      | Description              | Type            |  Default     |
+|---------------|--------------------------|-----------------|--------------|
+| title      | title of the column group   | String or React.Element | - |
 
 ### rowSelection
 
